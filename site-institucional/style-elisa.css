@@ -1,0 +1,233 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /*(ao colocar o asterisco ele aplica essa estilização para todas as paginas)*/
+    padding: 0;
+}
+.header{
+    background-color: rgb(0, 36, 77);
+    border:  rgb(4, 53, 109) 1px solid;
+    height: 100px;
+    background: url(https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80) no-repeat;
+    background-size: cover;
+   
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color:  rgb(4, 53, 109)ack;
+   
+    
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    
+}
+.navbar{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+   
+    
+    
+}
+.header h1 a{
+    color: rgb(202, 6, 127);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+     
+        
+}
+.navbar li {
+    font-weight: bolder;
+    color: rgb(19, 35, 80);
+    font-size: x-large;
+
+
+}
+.navbar .active {
+    font-weight: bolder;
+}
+.navbar li a {
+    text-decoration: none;
+    color: rgb(19, 35, 80);
+    font-size: x-large;
+
+}
+
+.banner {
+    height: 500px;
+    background-image: url('http://wallup.net/wp-content/uploads/2016/03/09/325966-green-abstract-blurred.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    margin-right: 250px;
+    width: 10%;
+    color: white;
+    font-size: 60px;
+    
+}
+
+.message span {
+    font-weight: bolder;
+    text-shadow: white 2px 2px 2px;
+}
+
+.proposito {
+    height: 450px;
+    background-color:rgb(255, 179, 223);
+}
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container .mvv div img {
+    height: 100px;
+    width: 100px;
+}
+
+.proposito .container .mvv {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposito .container .mvv div {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.proposito .container h2 {
+    color: rgb(202, 6, 127)go;
+    text-shadow: white 2px 2px 2px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.proposito .container .mvv div h3 {
+    color: rgb(202, 6, 127);
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.footer {
+    background-color: rgb(19, 35, 80);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80) no-repeat;
+    background-size: cover
+}
+
+.footer p {
+    color: rgb(19, 35, 80);
+    font-weight: bolder;
+}
+
+.banner .form-login {
+    background-color: #e5e5e5;
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.banner .form-login div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .form-login h2 {
+    color: rgb(202, 6, 127);
+    font-weight: bolder;
+}
+
+.banner .form-login span {
+    color: rgb(202, 6, 127);
+    font-weight: bolder;
+}
+
+.banner .form-login div input {
+    border: 2px solid rgb(202, 6, 127);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .form-login button {
+    background-color: rgb(202, 6, 127);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.banner .form-cadastro {
+    background-color: #e5e5e5;
+    height: 450px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.banner .form-cadastro div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .form-cadastro h2 {
+    color: rgb(202, 6, 127);
+    font-weight: bolder;
+}
+
+.banner .form-cadastro span {
+    color: rgb(202, 6, 127)o;
+    font-weight: bolder;
+}
+
+.banner .form-cadastro div input {
+    border: 2px solid rgb(202, 6, 127)o;
+    border-color: rgb(230, 5, 155);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.banner .form-cadastro button {
+    background-color: rgb(202, 6, 127);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 18px;
+    margin-top: 5px;
+}
+
+.banner .form-cadastro select {
+    border: 2px solid rgb(202, 6, 127);
+    border-radius: 10px;
+    padding: 8px;
+}

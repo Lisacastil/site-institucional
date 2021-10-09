@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style-elisa.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <h1><a href="index-elisa.html">AcquaTec</a></h1>
+            <ul class="navbar">
+                <li><a href="index-elisa.html">Início</a></li>
+                <li><a href="">Simulador</a></li>
+                <li>|</li>
+                <li><a href="login-elisa.html">Login</a></li>
+                <li class="active"><a href="cadastro-elisa.html">Cadastro</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="form-cadastro">
+            <h2>Seja bem vindo!</h2>
+            <div>
+                <span>Nome: </span>
+                <input type="text" placeholder="Insira seu nome">
+            </div>
+            <div>
+                <span>Sobrenome: </span>
+                <input type="text" placeholder="Insira seu sobrenome">
+            </div>
+            <div>
+                <span>E-mail: </span>
+                <input type="email" placeholder="Insira seu e-mail">
+            </div>
+            <div>
+                <span>Senha:</span>
+                <input type="password" placeholder="********">
+            </div>
+            <div>
+                <span>Data de nascimento:</span>
+                <input type="date" placeholder="ex. 1996-03-01">
+            </div>
+            <div>
+                <span>Gênero:</span>
+                <select id="">
+                    <option value="">- Escolher uma opção -</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                </select>
+            </div>
+            <button onclick="cadastrar()">Cadastrar</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Feito com amor por um aluno Bandtec © 2021
+        </p>  
+    </div>
+
+</body>
+</html>
